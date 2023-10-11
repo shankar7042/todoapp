@@ -1,4 +1,4 @@
-body{
+body {
   background: #454545;
   position: relative;
   height: 100vh;
@@ -9,7 +9,7 @@ body{
   position: absolute;
   left: 95%;
   top: 20%;
-  transform: translate(-95%,-20%);
+  transform: translate(-95%, -20%);
   padding: 1rem;
   width: 30%;
   text-align: center;
@@ -19,15 +19,15 @@ body{
   /* display: none; */
 }
 
-.app-title{
+.app-title {
   margin: 0;
   padding: 0.6rem 0;
 }
 
-.form-input{
+.form-input {
   padding: 1rem 0;
 }
-.input-field{
+.input-field {
   padding: 0.5rem;
   min-width: 380px;
   border: 0;
@@ -35,7 +35,7 @@ body{
   border-radius: 1rem;
 }
 
-.submit-btn{
+.submit-btn {
   padding: 0.5rem 0.8rem;
   background-color: rgb(30, 144, 231);
   border: 0;
@@ -45,16 +45,16 @@ body{
   color: #fff;
   cursor: pointer;
 }
-.err-msg{
+.err-msg {
   font-size: 13px;
   color: rgb(134, 15, 15);
 }
 
-.task-list{
+.task-list {
   padding: 1rem 0;
 }
 
-.list-item{
+.list-item {
   background-color: #eee;
   list-style: none;
   display: flex;
@@ -65,7 +65,7 @@ body{
   margin-bottom: 0.4rem;
 }
 
-.del-btn{
+.del-btn {
   margin-right: -1rem;
   background: rgb(240, 28, 28);
   padding: 0.4rem 1rem;
@@ -75,11 +75,11 @@ body{
   cursor: pointer;
 }
 
-.task-group{
+.task-group {
   position: absolute;
   top: 10%;
   left: 5%;
-  transform: translate(-5%,-10%);
+  transform: translate(-5%, -10%);
   width: 20%;
   padding: 1.5rem 1rem;
   border-radius: 0.2rem;
@@ -87,7 +87,7 @@ body{
   background: #efefef;
 }
 
-.group-list{
+.group-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,42 +95,42 @@ body{
   margin-bottom: 0.8rem;
 }
 
-.group-list span{
+.group-list span {
   display: inline-block;
   flex: 1 1 25%;
   text-align: center;
   width: 25%;
 }
 
-.del-grp{
+.del-grp {
   color: #d00;
   padding: 0.6rem;
 }
 
-.group-input{
+.group-input {
   max-width: 50px;
   padding: 0.6rem;
   outline: 0;
   border: 1px solid #ddd;
 }
 
-.group-text{
+.group-text {
   border: 1px solid #ddd;
   padding: 0.6rem;
   margin: 0 3px;
   font-size: 13px;
 }
 
-.add-group{
+.add-group {
   border: 0;
   background: rgb(21, 147, 236);
   padding: 0.4rem 1rem;
   color: #fff;
   border-radius: 0.2rem;
+  cursor: pointer;
 }
 
-
-.task-status{
+.task-status {
   position: absolute;
   top: 10%;
   left: 60%;
@@ -142,30 +142,34 @@ body{
   box-shadow: inset 2px 3px 3px #bbb;
 }
 
-.status-item{
+.status-item {
   padding: 0.8rem 0.5rem;
   border: 1px solid #bbb;
   margin-bottom: 1rem;
 }
-.status-item span{
+.status-item span {
   margin: 0 0.2rem;
   font-size: 13px;
 }
 
-.status-item span::after{
-  content: '|';
+.status-item span::after {
+  content: "|";
   margin-left: 5px;
 }
 
-.status-item span:last-child::after{
-  content: '';
+.status-item span:last-child::after {
+  content: "";
 }
 
-.groupList{
+.groupList {
   display: block;
   background-color: #bdd2f4;
   margin-bottom: 1rem;
   padding: 0.5rem;
 }
 
-.status-list{background: #bbb;margin: 0 0.2rem;padding: 0.2rem 0.4rem;}
+.status-list {
+  background: #bbb;
+  margin: 0 0.2rem;
+  padding: 0.2rem 0.4rem;
+}
