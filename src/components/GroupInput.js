@@ -13,7 +13,7 @@ function TaskGroup(props) {
             type="number"
             className="group-input"
             onChange={(e) => {
-              setInputFrom(e.target.value);
+              setInputFrom(Number(e.target.value));
             }}
             value={inputFrom}
           />
@@ -24,7 +24,7 @@ function TaskGroup(props) {
             type="number"
             className="group-input"
             onChange={(e) => {
-              setInputTo(e.target.value);
+              setInputTo(Number(e.target.value));
             }}
             value={inputTo}
           />

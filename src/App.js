@@ -12,13 +12,13 @@ function App() {
   const addGroup = (inputFrom, inputTo) => {
     // we are going to make first group
     if (groupList.length === 0) {
-      if (inputFrom < 1 || inputTo > 10) {
+      if (Number(inputFrom) < 1 || inputTo > 10) {
         alert("group values can be only 1 to 10");
         return;
       } else {
         let groupData = {
-          inputFrom: Number(inputFrom),
-          inputTo: Number(inputTo),
+          inputFrom: inputFrom,
+          inputTo: inputTo,
         };
         setGroupList([...groupList, groupData]);
       }
